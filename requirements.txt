@@ -1,0 +1,19 @@
+You need to download this dependencies into your computer/virtual environment to be able to use the training script:
+
+streamlit
+pandas
+numpy
+altair
+torch
+torchvision
+transformers
+datasets
+scikit-learn
+pyngrok
+pillow
+huggingface_hub
+accelerate
+json
+base64
+
+Make sure to input your NGROK KEY in MILO.py to be able to share external link for mobile and HB KEY to fetch dataset for Hugging Face.
