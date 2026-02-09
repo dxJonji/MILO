@@ -27,7 +27,7 @@ login(token=os.environ["HF_TOKEN"])
 
 BASE_MODEL = "SamLowe/roberta-base-go_emotions"
 OUTPUT_DIR = "../models/roberta-mental-health"
-LOCAL_CSV = "../data/Combined Data.csv" 
+# LOCAL_CSV = "../data/Combined Data.csv"    #if you want to add local CVS for training link it's path HERE
 
 # 8 Emotion Classes (Your requested update)
 MILO_LABELS = [
